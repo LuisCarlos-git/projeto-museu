@@ -11,6 +11,7 @@ a:link, a:active, a:visited {
     text-decoration: none;
 }
 a:hover {
+    display: block;
     color: #227115;
 }
 /*LOGO*/
@@ -23,6 +24,9 @@ a:hover {
 }
 #logo h1 {
     float: left;
+}
+#principal {
+    margin-top: 30px;
 }
 /*NAVEGAÇÃO*/
 header {
@@ -49,13 +53,37 @@ nav ul li a:hover {
 /*principal*/
 #conteudos {
     width: 710px;
-    background: darkturquoise;
     float: left;
+    margin-bottom: 20px;
+}
+article#video {
+    width: 310px;
+    float: left;
+    margin-left: 15px;
+}
+article#mapa {
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+}
+article#exposicoes{
+    width: 310px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+article#historia {
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+    margin-top: 25px;
 }
 aside {
+    padding-bottom: 25px;
     width: 350px;
     float: right;
-    background: #f4f2ec;
+    background: #cbc8b1;
+    margin-bottom: 20px;
 }
 section#visita {
     background: #cbc8b1;
@@ -69,9 +97,19 @@ section#galeria a {
     padding: 15px 15px 18px 15px;
     margin: 10px 0 0 20px;
 }
+section#galeria{
+    padding: 0 27px 0 27px;
+
+}
 section#galeria img {
     margin-left: 2px;
     margin-top: 3px;
+}
+h3 {
+    color: #227115;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 h4  {
     color: #86521a;
@@ -99,4 +137,14 @@ input.botao {
     font-size: 1.2em;
     width: 100%;
     height: 40px;
+}
+/*rodape*/
+#rodape {
+    padding: 20px 0 30px 0;
+    background: url("imagens/fundo-rodape.png") no-repeat top center;
+    text-align: center;
+}
+footer>p {
+    font-size: 1.7em;
+    color: #222;
 }
