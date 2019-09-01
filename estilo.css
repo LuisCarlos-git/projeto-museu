@@ -21,6 +21,9 @@ a:hover {
     display: block;
     background: url("imagens/logo.png") no-repeat;
 }
+#logo h1 {
+    float: left;
+}
 /*NAVEGAÇÃO*/
 header {
     padding: 15px;
@@ -42,4 +45,58 @@ nav ul li a:link {
 }
 nav ul li a:hover {
     border-bottom: 2px solid #535858;
+}
+/*principal*/
+#conteudos {
+    width: 710px;
+    background: darkturquoise;
+    float: left;
+}
+aside {
+    width: 350px;
+    float: right;
+    background: #f4f2ec;
+}
+section#visita {
+    background: #cbc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 20px;
+}
+section#galeria a {
+    display: block;
+    background: url("imagens/fundo-foto.png") no-repeat;
+    float: left;
+    padding: 15px 15px 18px 15px;
+    margin: 10px 0 0 20px;
+}
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+h4  {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+/*forms*/
+fieldset {
+    border: none;
+}
+input {
+    width: 80px;
+    height: 20px;
+    font-size: 1em;
+    background: #fff;
+    border: none;
+}
+input.campo {
+    border: 1px solid #ada484;
+}
+input.botao {
+    background: #9b9271;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
 }
